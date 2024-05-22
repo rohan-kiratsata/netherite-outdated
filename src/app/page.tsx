@@ -1,4 +1,4 @@
-import { login, signup } from "./actions";
+// import { login, signup } from "./actions";
 
 export default function Home() {
   return (
@@ -7,8 +7,8 @@ export default function Home() {
       <input id="email" name="email" type="email" required />
       <label htmlFor="password">Password:</label>
       <input id="password" name="password" type="password" required />
-      <button formAction={login}>Log in</button>
-      <button formAction={signup}>Sign up</button>
+      {/* <button formAction={login}>Log in</button> */}
+      {/* <button formAction={signup}>Sign up</button> */}
     </form>
   );
 }
