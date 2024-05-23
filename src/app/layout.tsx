@@ -1,5 +1,6 @@
 import "@mantine/core/styles.css";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
+import { custom_theme } from "@/utils/custom-theme";
 
 export const metadata = {
   title: "Netherite",
@@ -17,7 +18,7 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider theme={custom_theme}>{children}</MantineProvider>
       </body>
     </html>
   );
