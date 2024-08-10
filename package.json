@@ -18,6 +18,8 @@
     "@mantine/notifications": "^7.9.2",
     "@mantine/spotlight": "^7.9.2",
     "@mantine/tiptap": "^7.9.2",
+    "@prisma/client": "^5.18.0",
+    "@supabase/supabase-js": "^2.45.1",
     "@tabler/icons-react": "^3.5.0",
     "@tiptap/extension-link": "^2.4.0",
     "@tiptap/react": "^2.4.0",
@@ -36,6 +38,7 @@
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
+    "prisma": "^5.18.0",
     "typescript": "^5"
   }
 }
